@@ -1,5 +1,5 @@
 [package]
-name = "bevy-third-person-template"
+name = "bevy-3pv-template"
 version = "0.1.0"
 publish = false
 authors = ["Oleks Pickle <22867443+olekspickle@users.noreply.github.com>"]

@@ -396,6 +396,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy-3pv-template"
+version = "0.1.0"
+dependencies = [
+ "bevy 0.15.0",
+ "bevy_asset_loader",
+ "bevy_kira_audio",
+ "embed-resource",
+ "image",
+ "log",
+ "rand",
+ "webbrowser",
+ "winit",
+]
+
+[[package]]
 name = "bevy_a11y"
 version = "0.14.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -862,21 +877,6 @@ checksum = "bfe562b883fb652acde84cb6bb01cbc9f23c377e411f1484467ecfdd3a3d234e"
 dependencies = [
  "bevy_macro_utils 0.15.0",
  "encase_derive_impl 0.10.0",
-]
-
-[[package]]
-name = "bevy_game"
-version = "0.1.0"
-dependencies = [
- "bevy 0.15.0",
- "bevy_asset_loader",
- "bevy_kira_audio",
- "embed-resource",
- "image",
- "log",
- "rand",
- "webbrowser",
- "winit",
 ]
 
 [[package]]
@@ -3565,7 +3565,7 @@ version = "0.1.0"
 dependencies = [
  "bevy 0.14.2",
  "bevy 0.15.0",
- "bevy_game",
+ "bevy-3pv-template",
  "cpal",
 ]
 
